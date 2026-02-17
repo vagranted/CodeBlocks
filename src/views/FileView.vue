@@ -1,12 +1,32 @@
 <template>
-  <div class="container mt-4">
-    <div class="card">
-      <div class="card-header bg-primary text-white">
-        <h3>Файлы</h3>
-      </div>
-      <div class="card-body">
-        <p>Управление файлами проектов</p>
-      </div>
+  <div class="files">
+    <div class="files_salert">
+      <h1>Файлы</h1>
     </div>
   </div>
 </template>
+
+<script setup></script>
+
+<style scoped>
+.files {
+  width: 500px;
+  height: 200px;
+  background-color: #000000;
+  margin: 50px auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.files_button {
+  background-color: #000000;
+  color: white;
+  border-color: black;
+}
+</style>

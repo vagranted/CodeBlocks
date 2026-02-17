@@ -1,14 +1,33 @@
-<script setup>
-</script>
 <template>
-  <div class="container mt-4">
-    <div class="card">
-      <div class="card-header bg-primary text-white">
-        <h3>Правки</h3>
-      </div>
-      <div class="card-body">
-        <p>Тут что-то по правкам</p>
-      </div>
+  <div class="edits">
+    <div class="edits_alert">
+      <h1>Правки</h1>
     </div>
   </div>
 </template>
+
+<script setup>
+</script>
+
+<style scoped>
+.edits {
+  width: 500px;
+  height: 200px;
+  background-color: #000000;
+  margin: 50px auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.edits_button {
+  background-color: #000000;
+  color: white;
+  border-color: black;
+}
+</style>
