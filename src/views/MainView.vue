@@ -23,7 +23,6 @@
   justify-content: center;
   min-height: 100%;
 }
-
 .main_button {
   background-color: #000000;
   color: white;
