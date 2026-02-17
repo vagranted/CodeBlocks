@@ -1,8 +1,10 @@
 <script setup></script>
 <template>
+
   <div class="tutorials">
     <div class="tutorials_text">
       <h1>Туториал</h1>
+
     </div>
   </div>
 </template>
