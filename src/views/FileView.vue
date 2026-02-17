@@ -1,7 +1,7 @@
 <template>
-  <div class="main">
-    <div class="main_alert">
-      <p>Файлы</p>
+  <div class="files">
+    <div class="files_salert">
+      <h1>Файлы</h1>
     </div>
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script setup></script>
 
 <style scoped>
-.main {
+.files {
   width: 500px;
   height: 200px;
   background-color: #000000;
@@ -24,7 +24,7 @@
   min-height: 100%;
 }
 
-.main_button {
+.files_button {
   background-color: #000000;
   color: white;
   border-color: black;

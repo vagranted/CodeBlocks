@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="main_alert">
-      <p>Добро пожаловать в CodeBlock!</p>
+      <h3>Добро пожаловать в CodeBlock!</h3>
     </div>
   </div>
 </template>
@@ -24,9 +24,9 @@
   min-height: 100%;
 }
 
-.main_button{
+.main_button {
   background-color: #000000;
   color: white;
-  border-color: black ;
+  border-color: black;
 }
 </style>

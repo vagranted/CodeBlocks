@@ -1,7 +1,7 @@
 <template>
-  <div class="main">
-    <div class="main_alert">
-      <p>О нас</p>
+  <div class="about">
+    <div class="about_alert">
+      <h1>О нас</h1>
     </div>
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script setup></script>
 
 <style scoped>
-.main {
+.about {
   width: 500px;
   height: 200px;
   background-color: #000000;
@@ -24,7 +24,7 @@
   min-height: 100%;
 }
 
-.main_button {
+.about_button {
   background-color: #000000;
   color: white;
   border-color: black;

@@ -1,15 +1,16 @@
 <template>
-  <div class="main">
-    <div class="main_alert">
-      <p>Правки</p>
+  <div class="edits">
+    <div class="edits_alert">
+      <h1>Правки</h1>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
 
 <style scoped>
-.main {
+.edits {
   width: 500px;
   height: 200px;
   background-color: #000000;
@@ -24,7 +25,7 @@
   min-height: 100%;
 }
 
-.main_button {
+.edits_button {
   background-color: #000000;
   color: white;
   border-color: black;
