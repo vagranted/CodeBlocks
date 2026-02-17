@@ -1,11 +1,32 @@
 <template>
-  <div class="container mt-4">
-    <div class="alert alert-success">
+  <div class="main">
+    <div class="main_alert">
       <p>Добро пожаловать в CodeBlock!</p>
-      <button class="btn btn-primary">Начать работу</button>
     </div>
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
+
+<style scoped>
+.main {
+  width: 500px;
+  height: 200px;
+  background-color: #000000;
+  margin: 50px auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.main_button{
+  background-color: #000000;
+  color: white;
+  border-color: black ;
+}
+</style>

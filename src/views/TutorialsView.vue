@@ -1,12 +1,30 @@
 <template>
-  <div class="container mt-4">
-    <div class="card">
-      <div class="card-header bg-primary text-white">
-        <h3>Правки</h3>
-      </div>
-      <div class="card-body">
-        <p>Правки</p>
-      </div>
+  <div class="tutorials">
+    <div class="tutorials_text">
+      <p>Туториал</p>
     </div>
   </div>
 </template>
+
+<style scoped>
+.tutorials {
+  width: 500px;
+  height: 200px;
+  background-color: #000000;
+  margin: 50px auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.tutorials_text {
+  background-color: #000000;
+  color: white;
+  border-color: black;
+}
+</style>

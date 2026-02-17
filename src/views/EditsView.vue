@@ -1,14 +1,32 @@
-<script setup>
-</script>
 <template>
-  <div class="container mt-4">
-    <div class="card">
-      <div class="card-header bg-primary text-white">
-        <h3>Правки</h3>
-      </div>
-      <div class="card-body">
-        <p>Тут что-то по правкам</p>
-      </div>
+  <div class="main">
+    <div class="main_alert">
+      <p>Правки</p>
     </div>
   </div>
 </template>
+
+<script setup></script>
+
+<style scoped>
+.main {
+  width: 500px;
+  height: 200px;
+  background-color: #000000;
+  margin: 50px auto;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.main_button {
+  background-color: #000000;
+  color: white;
+  border-color: black;
+}
+</style>
