@@ -25,11 +25,10 @@
   color: black;
   border-radius: 5px;
 }
-.nav-link:active {
-  background-color: #9d2d2d;
-  color: black;
+.navbar-expand-lg .navbar-nav .nav-link:active{
+  background-color: #9b2d2d;
+  color: #fff7e6;
   border-radius: 5px;
-
 }
 
 .code_block{

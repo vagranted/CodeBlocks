@@ -9,7 +9,7 @@
 
 <style scoped>
 .tutorials {
-  width: 500px;
+  width: 90%;
   height: 200px;
   background-color: #000000;
   margin: 50px auto;

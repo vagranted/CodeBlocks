@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 
 import './assets/navbar.css'
+import './assets/footer.css'
 
 const app = createApp(App)
 app.use(router)

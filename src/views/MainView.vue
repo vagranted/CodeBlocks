@@ -9,8 +9,9 @@
 <script setup></script>
 
 <style scoped>
+
 .main {
-  width: 500px;
+  width: 90%;
   height: 200px;
   background-color: #000000;
   margin: 50px auto;
@@ -21,7 +22,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100%;
 }
 .main_button {
   background-color: #000000;
