@@ -1,12 +1,9 @@
 <template>
-  <footer class="navbar navbar-expand-lg navbar-black bg-black">
-    <div class="container">
-      <ul class="footer">
+  <footer>
+    <meta charset="UTF-8" />
+      <div class="footer">
         <a>Copyright by: Stepan, Nikita, Timaphey</a>
-      </ul>
-    </div>
+      </div>
   </footer>
 </template>
-<style scoped>
 
-</style>
